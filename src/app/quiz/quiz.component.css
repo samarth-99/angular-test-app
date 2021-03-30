@@ -1,0 +1,46 @@
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: #1a1d1f; /* Fallback color if gradients are not supported */
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 249, 249);
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  height: 92vh;
+  width: 100vw;
+} */
+
+.bg {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  font-size: 20px;
+  background-image: linear-gradient(315deg, #2E3192, #1BFFFF);
+  margin:0;
+  /* background-image: url('src/assets/images/bg.jpg'); */
+  background-position: center;
+  background-repeat:repeat-y;
+  background-size:cover;
+}

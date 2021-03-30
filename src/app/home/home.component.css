@@ -1,0 +1,9 @@
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+#btn{
+    margin: 10px;
+    position: relative;
+    left: 44%;
+    top: 40%;
+}
